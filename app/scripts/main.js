@@ -1,4 +1,3 @@
-/*eslint config: ../../conf/.eslintrc*/
 import {sum, square, variable, MyClass} from './modules/common_module.js';
 
 // 25
@@ -12,7 +11,7 @@ var cred = {
 var x = new MyClass(cred);
 
 //Ritesh Kumar
-console.log(x.getName());
+console.log(x.getName()); 
 
 // Load jQuery has module, and use it
 
@@ -29,7 +28,7 @@ $(document).on('ready', function(){
 console.log('pouet');
 
 $('.button_1').on('click', function(){
-$('#turn').text('button 1 click');
+    $('#turn').text('button 1 click');
 });
 
 });
